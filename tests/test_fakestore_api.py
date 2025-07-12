@@ -11,7 +11,7 @@ def load_payload():
     """Load test product data from JSON file."""
     with open(DATA_DIR / "product_payload.json") as f:
         return json.load(f)
-
+   # sdgdg
 def log_request_response(method, url, req_body, response):
     """Log the request and response details."""
     logging.info(f"REQUEST: {method} {url}")
